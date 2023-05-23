@@ -13,7 +13,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="bg-gray-200 flex justify-center items-center">
+        <div className="bg-white shadow-md rounded-md h-full w-full p-2 sm:h-[38rem] sm:w-96">
+          {children}
+        </div>
+      </body>
     </html>
   );
 }
