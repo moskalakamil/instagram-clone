@@ -1,7 +1,9 @@
+import Header from "@/components/home/header/Index";
+
 export default function Home() {
   return (
     <>
-      <p>Instagram-clone</p>
+      <Header />
     </>
   );
 }
