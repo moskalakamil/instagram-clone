@@ -15,18 +15,18 @@ const Header = () => {
         />
       </Link>
       <div className="flex gap-2">
-        <Link href={"/add-post"}>
-          <Image
-            src="/images/header/add-post.png"
-            alt="add post"
-            width={32}
-            height={32}
-          />
-        </Link>
         <Link href={"/notification"}>
           <Image
             src="/images/header/notification.png"
             alt="notification"
+            width={32}
+            height={32}
+          />
+        </Link>
+        <Link href={"/messages"}>
+          <Image
+            src="/images/header/messages.png"
+            alt="add post"
             width={32}
             height={32}
           />
